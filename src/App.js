@@ -18,7 +18,7 @@ function App() {
 
   // Update document title to roll number
   useEffect(() => {
-    document.title = "Your Roll Number"; // Replace with your actual roll number
+    document.title = "RA2111030010212"; // Replace with your actual roll number
   }, []);
 
   // Handle form submission (JSON input validation and API call)
@@ -72,9 +72,9 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>BFHL Frontend</h1>
+      <h1>INPUT PAGE</h1>
       <textarea
-        placeholder='Enter JSON input (e.g., {"data": ["A", "b", "3"], "file_b64": "BASE64_STRING"})'
+        placeholder='Enter JSON input (e.g., {"data": ["D", "c", "7"]})'
         value={inputData}
         onChange={(e) => setInputData(e.target.value)}
       />
