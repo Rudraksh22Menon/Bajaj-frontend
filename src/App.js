@@ -34,7 +34,7 @@ function App() {
         },
         body: JSON.stringify({
           data: jsonData.data || [], // Adjust based on your API payload requirements
-          file_b64: jsonData.file_b64 || "" // Adjust if necessary
+          file_b64: jsonData.file_b64 || undefined // Adjust if necessary
         }),
       });
 
