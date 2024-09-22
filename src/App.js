@@ -27,7 +27,7 @@ function App() {
       const jsonData = JSON.parse(inputData); // Validate JSON input
 
       // Adjust the URL to match your backend URL
-      const response = await fetch('http://localhost:3001/bfhl', {
+      const response = await fetch('https://backendd-f143e51585ff.herokuapp.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
